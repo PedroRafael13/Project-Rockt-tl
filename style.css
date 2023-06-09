@@ -108,8 +108,32 @@ main {
   width: 35vw;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 950px) {
   .card-login {
+    width: 85%
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  .left-login>h1 {
+    display: none;
+  }
+
+  .left-login {
     width: 100%;
+    height: auto;
+  }
+
+  .right-login {
+    width: 100%;
+    height: auto;
+  }
+
+  .image {
+    width: 50vw;
   }
 }
